@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="TestFile" package="org.openfl.samples.testfile" version="1.0.0" company="OpenFL" />
+	<app main="WaxeMe" path="Export" file="TestFile" />
+	
+	<source path="Source" />
+	
+	<haxelib name="openfl"/>
+	<haxelib name="openfl-native"/>
+	<haxelib name="waxe"/>
+	
+	<source path="Assets" />
+	<icon path="Assets/nme.svg" />
+	
+</project>
