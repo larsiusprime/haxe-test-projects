@@ -1,16 +1,20 @@
 package;
 
+import flash.text.Font;
+import flixel.addons.ui.FlxUIState;
+import flixel.addons.ui.FlxUIText;
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.FlxState;
 import flixel.text.FlxText;
 import flixel.ui.FlxButton;
 import flixel.util.FlxMath;
+import openfl.Assets;
 
 /**
  * A FlxState which can be used for the game's menu.
  */
-class MenuState extends FlxState
+class MenuState extends FlxUIState
 {
 	/**
 	 * Function that is called up when to state is created to set it up. 
@@ -24,15 +28,12 @@ class MenuState extends FlxState
 		FlxG.mouse.show();
 		#end
 		
+		_xml_id = "ui/menu";
+		
 		super.create();
 		
-		var t:FlxText = new FlxText(0, 0, FlxG.width, "This text should work!", 8);
-		t.color = 0xffffff;
-		add(t);
-		
-		var t2:FlxText = new FlxText(0, 100, FlxG.width, "This text does not work!", 8);
-		t2.setFormat("assets/fonts/verab.ttf", 8, 0xffffff);
-		add(t2);
+		/*var text:FlxUIText = new FlxUIText(0, 0, FlxG.width, "Yo Yo Yo");
+		add(text);*/
 	}
 	
 	/**

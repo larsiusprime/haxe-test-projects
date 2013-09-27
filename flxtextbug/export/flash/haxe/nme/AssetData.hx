@@ -34,6 +34,8 @@ class AssetData {
 			type.set ("assets/music/music-goes-here.txt", Reflect.field (AssetType, "text".toUpperCase ()));
 			className.set ("assets/sounds/sounds-go-here.txt", nme.NME_assets_sounds_sounds_go_here_txt);
 			type.set ("assets/sounds/sounds-go-here.txt", Reflect.field (AssetType, "text".toUpperCase ()));
+			className.set ("assets/xml/ui/menu.xml", nme.NME_assets_xml_ui_menu_xml);
+			type.set ("assets/xml/ui/menu.xml", Reflect.field (AssetType, "text".toUpperCase ()));
 			className.set ("flixel/img/debugger/buttons/console.png", nme.NME_flixel_img_debugger_buttons_console_png);
 			type.set ("flixel/img/debugger/buttons/console.png", Reflect.field (AssetType, "image".toUpperCase ()));
 			className.set ("flixel/img/debugger/buttons/logDebug.png", nme.NME_flixel_img_debugger_buttons_logdebug_png);
@@ -110,6 +112,42 @@ class AssetData {
 			type.set ("flixel/snd/beep.mp3", Reflect.field (AssetType, "music".toUpperCase ()));
 			className.set ("flixel/snd/flixel.mp3", nme.NME_flixel_snd_flixel_mp3);
 			type.set ("flixel/snd/flixel.mp3", Reflect.field (AssetType, "music".toUpperCase ()));
+			className.set ("flixel/flixel-ui/img/box.png", nme.NME_flixel_flixel_ui_img_box_png);
+			type.set ("flixel/flixel-ui/img/box.png", Reflect.field (AssetType, "image".toUpperCase ()));
+			className.set ("flixel/flixel-ui/img/button.png", nme.NME_flixel_flixel_ui_img_button_png);
+			type.set ("flixel/flixel-ui/img/button.png", Reflect.field (AssetType, "image".toUpperCase ()));
+			className.set ("flixel/flixel-ui/img/button_thin.png", nme.NME_flixel_flixel_ui_img_button_thin_png);
+			type.set ("flixel/flixel-ui/img/button_thin.png", Reflect.field (AssetType, "image".toUpperCase ()));
+			className.set ("flixel/flixel-ui/img/button_toggle.png", nme.NME_flixel_flixel_ui_img_button_toggle_png);
+			type.set ("flixel/flixel-ui/img/button_toggle.png", Reflect.field (AssetType, "image".toUpperCase ()));
+			className.set ("flixel/flixel-ui/img/check_box.png", nme.NME_flixel_flixel_ui_img_check_box_png);
+			type.set ("flixel/flixel-ui/img/check_box.png", Reflect.field (AssetType, "image".toUpperCase ()));
+			className.set ("flixel/flixel-ui/img/check_mark.png", nme.NME_flixel_flixel_ui_img_check_mark_png);
+			type.set ("flixel/flixel-ui/img/check_mark.png", Reflect.field (AssetType, "image".toUpperCase ()));
+			className.set ("flixel/flixel-ui/img/chrome.png", nme.NME_flixel_flixel_ui_img_chrome_png);
+			type.set ("flixel/flixel-ui/img/chrome.png", Reflect.field (AssetType, "image".toUpperCase ()));
+			className.set ("flixel/flixel-ui/img/chrome_flat.png", nme.NME_flixel_flixel_ui_img_chrome_flat_png);
+			type.set ("flixel/flixel-ui/img/chrome_flat.png", Reflect.field (AssetType, "image".toUpperCase ()));
+			className.set ("flixel/flixel-ui/img/chrome_inset.png", nme.NME_flixel_flixel_ui_img_chrome_inset_png);
+			type.set ("flixel/flixel-ui/img/chrome_inset.png", Reflect.field (AssetType, "image".toUpperCase ()));
+			className.set ("flixel/flixel-ui/img/dropdown_mark.png", nme.NME_flixel_flixel_ui_img_dropdown_mark_png);
+			type.set ("flixel/flixel-ui/img/dropdown_mark.png", Reflect.field (AssetType, "image".toUpperCase ()));
+			className.set ("flixel/flixel-ui/img/hilight.png", nme.NME_flixel_flixel_ui_img_hilight_png);
+			type.set ("flixel/flixel-ui/img/hilight.png", Reflect.field (AssetType, "image".toUpperCase ()));
+			className.set ("flixel/flixel-ui/img/invis.png", nme.NME_flixel_flixel_ui_img_invis_png);
+			type.set ("flixel/flixel-ui/img/invis.png", Reflect.field (AssetType, "image".toUpperCase ()));
+			className.set ("flixel/flixel-ui/img/radio.png", nme.NME_flixel_flixel_ui_img_radio_png);
+			type.set ("flixel/flixel-ui/img/radio.png", Reflect.field (AssetType, "image".toUpperCase ()));
+			className.set ("flixel/flixel-ui/img/radio_dot.png", nme.NME_flixel_flixel_ui_img_radio_dot_png);
+			type.set ("flixel/flixel-ui/img/radio_dot.png", Reflect.field (AssetType, "image".toUpperCase ()));
+			className.set ("flixel/flixel-ui/img/tab.png", nme.NME_flixel_flixel_ui_img_tab_png);
+			type.set ("flixel/flixel-ui/img/tab.png", Reflect.field (AssetType, "image".toUpperCase ()));
+			className.set ("flixel/flixel-ui/img/tab_back.png", nme.NME_flixel_flixel_ui_img_tab_back_png);
+			type.set ("flixel/flixel-ui/img/tab_back.png", Reflect.field (AssetType, "image".toUpperCase ()));
+			className.set ("flixel/flixel-ui/xml/defaults.xml", nme.NME_flixel_flixel_ui_xml_defaults_xml);
+			type.set ("flixel/flixel-ui/xml/defaults.xml", Reflect.field (AssetType, "text".toUpperCase ()));
+			className.set ("flixel/flixel-ui/xml/default_popup.xml", nme.NME_flixel_flixel_ui_xml_default_popup_xml);
+			type.set ("flixel/flixel-ui/xml/default_popup.xml", Reflect.field (AssetType, "text".toUpperCase ()));
 			
 			
 			initialized = true;
@@ -130,6 +168,7 @@ class NME_assets_fonts_veraz_ttf extends flash.text.Font { }
 class NME_assets_images_images_go_here_txt extends flash.utils.ByteArray { }
 class NME_assets_music_music_goes_here_txt extends flash.utils.ByteArray { }
 class NME_assets_sounds_sounds_go_here_txt extends flash.utils.ByteArray { }
+class NME_assets_xml_ui_menu_xml extends flash.utils.ByteArray { }
 class NME_flixel_img_debugger_buttons_console_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class NME_flixel_img_debugger_buttons_logdebug_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class NME_flixel_img_debugger_buttons_open_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
@@ -168,3 +207,21 @@ class NME_flixel_img_ui_virtualpad_x_png extends flash.display.BitmapData { publ
 class NME_flixel_img_ui_virtualpad_y_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class NME_flixel_snd_beep_mp3 extends flash.media.Sound { }
 class NME_flixel_snd_flixel_mp3 extends flash.media.Sound { }
+class NME_flixel_flixel_ui_img_box_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class NME_flixel_flixel_ui_img_button_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class NME_flixel_flixel_ui_img_button_thin_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class NME_flixel_flixel_ui_img_button_toggle_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class NME_flixel_flixel_ui_img_check_box_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class NME_flixel_flixel_ui_img_check_mark_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class NME_flixel_flixel_ui_img_chrome_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class NME_flixel_flixel_ui_img_chrome_flat_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class NME_flixel_flixel_ui_img_chrome_inset_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class NME_flixel_flixel_ui_img_dropdown_mark_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class NME_flixel_flixel_ui_img_hilight_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class NME_flixel_flixel_ui_img_invis_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class NME_flixel_flixel_ui_img_radio_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class NME_flixel_flixel_ui_img_radio_dot_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class NME_flixel_flixel_ui_img_tab_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class NME_flixel_flixel_ui_img_tab_back_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class NME_flixel_flixel_ui_xml_defaults_xml extends flash.utils.ByteArray { }
+class NME_flixel_flixel_ui_xml_default_popup_xml extends flash.utils.ByteArray { }

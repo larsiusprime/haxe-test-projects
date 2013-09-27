@@ -4,37 +4,35 @@
   <output>
     <movie outputType="Application" />
     <movie input="" />
-    <movie path="Project.xml" />
-    <movie fps="60" />
-    <movie width="640" />
-    <movie height="480" />
+    <movie path="project.xml" />
+    <movie fps="30" />
+    <movie width="800" />
+    <movie height="600" />
     <movie version="3" />
     <movie minorVersion="0" />
     <movie platform="NME" />
-    <movie background="FFFFFF" />
+    <movie background="#FFFFFF" />
   </output>
   <!-- Other classes to be compiled into your SWF -->
   <classpaths>
-    <class path="source" />
-    <class path="export\flash\haxe" />
+    <class path="Source" />
   </classpaths>
   <!-- Build options -->
   <build>
-    <option directives="tools=1.1.0&#xA;FLX_NO_DEBUG&#xA;openfl=1.1&#xA;display&#xA;web" />
+    <option directives="" />
     <option flashStrict="False" />
-    <option mainClass="ApplicationMain" />
+    <option mainClass="io.nme.samples.AddingText" />
     <option enabledebug="False" />
-    <option additional="--no-output&#xA;-swf-version 11.2&#xA;#--remap nme:flash" />
+    <option additional="" />
   </build>
   <!-- haxelib libraries -->
   <haxelib>
-    <library name="openfl" />
-    <library name="flixel" />
-    <library name="flixel-ui" />
+    <library name="nme" />
+    <library name="actuate" />
   </haxelib>
   <!-- Class files to compile (other referenced classes will automatically be included) -->
   <compileTargets>
-    <compile path="source\GameClass.hx" />
+    <!-- example: <compile path="..." /> -->
   </compileTargets>
   <!-- Assets to embed into the output SWF -->
   <library>
@@ -42,7 +40,7 @@
   </library>
   <!-- Paths to exclude from the Project Explorer tree -->
   <hiddenPaths>
-    <hidden path="obj" />
+    <!-- example: <hidden path="..." /> -->
   </hiddenPaths>
   <!-- Executed before build -->
   <preBuildCommand />

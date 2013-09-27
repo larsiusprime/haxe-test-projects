@@ -1,10 +1,12 @@
 -main ApplicationMain 
 -lib openfl
 -lib flixel
+-lib flixel-ui
 -cp source
--D tools=1.1.0
--D FLX_NO_DEBUG
+-D tools=1
+-D openfl_ver=1.0.10
 -D openfl
+-D fdb
 -D web
 -swf-version 11.2
 -swf export/flash/bin/FlxProject.swf

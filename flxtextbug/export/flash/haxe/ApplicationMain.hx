@@ -11,9 +11,6 @@ class ApplicationMain {
 	static var mPreloader:NMEPreloader;
 
 	public static function main() {
-		
-		
-		
 		var call_real = true;
 		
 		//nme.Lib.setPackage("HaxeFlixel", "FlxProject", "com.example.myapp", "0.0.1");
@@ -35,9 +32,24 @@ class ApplicationMain {
 		}
 		
 		
+		#if !fdb
+		haxe.Log.trace = flashTrace;
+		#end
+		
 		if (call_real)
 			begin();
 	}
+
+	#if !fdb
+	private static function flashTrace( v : Dynamic, ?pos : haxe.PosInfos ) {
+		var className = pos.className.substr(pos.className.lastIndexOf('.') + 1);
+		var message = className+"::"+pos.methodName+":"+pos.lineNumber+": " + v;
+		
+		if (flash.external.ExternalInterface.available)
+			flash.external.ExternalInterface.call("console.log", message);
+		else untyped flash.Boot.__trace(v, pos);
+    }
+	#end
 
 	private static function begin() {
 		var hasMain = false;
